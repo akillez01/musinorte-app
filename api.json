@@ -1,0 +1,113 @@
+{
+    "genres": [
+        {
+            "img": "./assets/images/musinorte.jpg",
+            "title": "Instrumental",
+            "searchString": "instrumental"
+        },
+        {
+            "img": "./assets/images/musinorte.jpg",
+            "title": "Cruzeirinho",
+            "searchString": "cruzeirinho"
+        }
+        
+    ],
+    "genres-instrumental": {
+        "img": "./assets/images/musinorte.jpg",
+        "title": "Instrumental",
+        "searchString": "instrumental",
+        "musics": [
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "01 Dou viva a deus",
+                "path": "musics/01-dou-viva-a-deus.mp3",
+                "duration": 121
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "02 todos queren ser irmaos",
+                "path": "musics/02-todos-queren-ser-irmaos.mp3",
+                "duration": 85
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "03 confia confia",
+                "path": "musics/03-confia-confia.mp3",
+                "duration": 80
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "04 eu peso",
+                "path": "musics/04-eu-peso.mp3",
+                "duration": 87
+            },
+            {
+                "img": "./assets/images/musinorte.png",
+                "title": "05 esta forca este poder",
+                "path": "musics/05-esta-forca-este-poder.mp3",
+                "duration": 135
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "06 quem procurar esta casa",
+                "path": "musics/06-quem-procurar-esta-casa.mp3",
+                "duration": 139
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "07 casa santa",
+                "path": "musics/07-casa-santa.mp3",
+                "duration": 132
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "08 eu tomo esta bebida",
+                "path": "musics/08-eu-tomo-esta-bebida.mp3",
+                "duration": 136
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "09 aqui estou dizendo",
+                "path": "musics/09-aqui-estou-dizendo.mp3",
+                "duration": 212
+            }
+        ]
+    },
+    "genres-cruzeirinho": {
+        "img": "./assets/images/musinorte.png",
+        "title": "Cruzeirinho",
+        "searchString": "cruzeirinho",
+        "musics": [
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "10 flor das aguas",
+                "path": "musics/10-flor-das-aguas.mp3",
+                "duration": 86
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "11 himno",
+                "path": "musics/11-hino.mp3",
+                "duration": 70
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "12 eu pedi",
+                "path": "musics/12-eu-pedi.mp3",
+                "duration": 80
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "13 eu chegei nesta casa",
+                "path": "musics/13-eu-chegei-nesta-casa.mp3",
+                "duration": 168
+            },
+            {
+                "img": "./assets/images/musinorte.jpg",
+                "title": "14 casa santa",
+                "path": "musics/14-casa-santa-.mp3",
+                "duration": 132
+            }
+        ]
+    }
+}
