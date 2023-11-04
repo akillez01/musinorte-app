@@ -5,11 +5,16 @@ phases:
       nodejs: 14
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
+      - echo istall packages...
       - npm install
   build:
     commands:
-      - echo Build commands go here
+      - echo Create build...
+      - npm rum dev
+  post_build:
+    commands:
+      - echo Removing unnecessary files...
+      - rm -rf node_modules/
 artifacts:
   files:
     - '**/*'
