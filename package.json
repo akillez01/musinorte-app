@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "json-server -H 35.175.85.109 -p 3000 -w api.json",
+    "dev": "json-server -H 192.168.0.12 -p 3000 -w api.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
