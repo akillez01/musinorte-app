@@ -1,21 +1,8 @@
-version: 0.2
-phases:
-  install:
-    runtime-versions:
-      nodejs: 14
-  pre_build:
-    commands:
-      - echo istall packages...
-      - npm install
-  build:
-    commands:
-      - echo Create build...
-      - npm rum dev
-  post_build:
-    commands:
-      - echo Removing unnecessary files...
-      - rm -rf node_modules/
-artifacts:
-  files:
-    - '**/*'
-    
+version: 1.0
+runtime: python3 
+build:
+  commands:
+    build:        
+      - pip install -r requirements.txt
+run:
+  command: python server.py
