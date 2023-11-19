@@ -1,7 +1,5 @@
 import 'dart:developer';
-
 import 'package:audioplayers/audioplayers.dart';
-//import 'package:crf_music_app/core/services/audio_service/audio_player_service.dart';
 import 'package:get/get.dart';
 import 'package:musinorte_app/core/services/audio_service/audio_player_service.dart';
 

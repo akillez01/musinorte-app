@@ -1,7 +1,3 @@
-//import 'package:crf_music_app/core/services/api_service.dart';
-//import 'package:crf_music_app/features/genre_list/data/repositories/genre_list_repository.dart';
-//
-//import 'package:crf_music_app/features/genre_list/presentation/controllers/genre_list_controller.dart';
 import 'package:get/get.dart';
 import 'package:musinorte_app/core/services/api_service.dart';
 import 'package:musinorte_app/features/genre_list/data/repositories/genre_list_repository.dart';

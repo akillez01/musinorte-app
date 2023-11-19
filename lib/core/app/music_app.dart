@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-//import 'package:crf_music_app/core/app/music_app_initial_bindings.dart';
-//import 'package:crf_music_app/core/app/music_app_material.dart';
-//import 'package:crf_music_app/features/genre_list/presentation/screens/genre_list_screen.dart';
 import 'package:musinorte_app/core/app/music_app_initial_bindings.dart';
 import 'package:musinorte_app/core/app/music_app_material.dart';
 import 'package:musinorte_app/features/genre_list/presentation/screens/genre_list_screen.dart';

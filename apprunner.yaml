@@ -1,9 +1,0 @@
-version: 1.0
-runtime: python3
-build:
-  commands:
-    build:
-      - flutter pub get
-      - flutter build web
-run:
-  command: 'python3 -m http.server 8080 -d build/web'

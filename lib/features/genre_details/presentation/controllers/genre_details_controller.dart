@@ -1,9 +1,3 @@
-//import 'package:crf_music_app/core/errors/failures.dart';
-//import 'package:crf_music_app/core/mixins/screen_loading_and_error_mixin.dart';
-//import 'package:crf_music_app/shared/features/music_app/presentation/controllers/music_player_controller.dart';
-//import 'package:crf_music_app/shared/models/genre_details_model.dart';
-//import 'package:crf_music_app/shared/models/genre_model.dart';
-//import 'package:crf_music_app/shared/models/music_model.dart';
 import 'package:get/get.dart';
 import 'package:musinorte_app/core/errors/failures.dart';
 import 'package:musinorte_app/core/mixins/screen_loading_and_error_mixin.dart';
@@ -25,14 +19,6 @@ class GenreDetailsController extends GetxController
         _musicPlayerController = musicPlayerController;
 
   GenreDetailsModel? genreDetails;
-
-  @override
-  get getIsLoading => true;
-
-  @override
-  get getError => null;
-
-  //bool? get getIsLoading => null;
 
   @override
   void onInit() {

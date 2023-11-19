@@ -1,6 +1,3 @@
-//import 'package:crf_music_app/shared/models/music_model.dart';
-//import 'package:crf_music_app/shared/widgets/image_widget.dart';
-//import 'package:crf_music_app/shared/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:musinorte_app/shared/models/music_model.dart';
 import 'package:musinorte_app/shared/widgets/text_widget.dart';

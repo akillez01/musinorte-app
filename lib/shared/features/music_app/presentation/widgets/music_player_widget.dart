@@ -1,10 +1,4 @@
 import 'dart:ui';
-
-//import 'package:crf_music_app/core/app/music_app_colors.dart';
-//import 'package:crf_music_app/shared/features/music_app/presentation/widgets/widgets/music_player_controls_widget.dart';
-//import 'package:crf_music_app/shared/features/music_app/presentation/widgets/widgets/music_player_music_duration_widget.dart';
-//import 'package:crf_music_app/shared/features/music_app/presentation/widgets/widgets/music_player_music_info.dart';
-//import 'package:crf_music_app/shared/models/music_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:musinorte_app/core/app/music_app_colors.dart';

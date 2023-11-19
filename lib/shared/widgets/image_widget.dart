@@ -18,8 +18,8 @@ class ImageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return img != null
         ? FadeInImage(
-            placeholder: const AssetImage(
-                'gs://musinorte.appspot.com/assets/images/music_placeholder.png'),
+            placeholder:
+                const AssetImage('assets/images/music_placeholder.png'),
             image: AssetImage(img!),
             fit: BoxFit.cover,
             width: width,

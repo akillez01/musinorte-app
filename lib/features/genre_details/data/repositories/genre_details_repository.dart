@@ -1,7 +1,3 @@
-//import 'package:crf_music_app/core/errors/exceptions.dart';
-//import 'package:crf_music_app/core/errors/failures.dart';
-//import 'package:crf_music_app/core/services/api_service.dart';
-//import 'package:crf_music_app/shared/models/genre_details_model.dart';
 import 'package:dartz/dartz.dart';
 import 'package:musinorte_app/core/errors/exceptions.dart';
 import 'package:musinorte_app/core/errors/failures.dart';

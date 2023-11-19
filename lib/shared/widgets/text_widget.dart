@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-//
-//import 'package:crf_music_app/core/app/music_app_text_styles.dart';
 import 'package:musinorte_app/core/app/music_app_text_styles.dart';
 
 class TextWidget extends StatelessWidget {

@@ -1,5 +1,3 @@
-//import 'package:crf_music_app/shared/models/genre_model.dart';
-//import 'package:crf_music_app/shared/models/music_model.dart';
 import 'package:musinorte_app/shared/models/genre_model.dart';
 import 'package:musinorte_app/shared/models/music_model.dart';
 

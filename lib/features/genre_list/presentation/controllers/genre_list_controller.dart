@@ -1,8 +1,4 @@
-//import 'dart:ffi';
 import 'package:get/get.dart';
-//import 'package:crf_music_app/core/errors/failures.dart';
-//import 'package:crf_music_app/shared/models/genre_model.dart';
-//import 'package:crf_music_app/core/mixins/screen_loading_and_error_mixin.dart';
 import 'package:musinorte_app/core/errors/failures.dart';
 import 'package:musinorte_app/core/mixins/screen_loading_and_error_mixin.dart';
 import 'package:musinorte_app/shared/models/genre_model.dart';
@@ -16,12 +12,6 @@ class GenreListController extends GetxController
       : _genreListRepository = genreListRepository;
 
   final RxList<GenreModel> genres = RxList([]);
-
-  @override
-  get getError => null;
-
-  @override
-  get getIsLoading async => null;
 
   @override
   void onInit() {

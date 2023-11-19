@@ -1,8 +1,4 @@
-//import 'package:crf_music_app/shared/views/album_view.dart';
-//import 'package:crf_music_app/shared/widgets/image_widget.dart';
 import 'package:flutter/material.dart';
-//import 'package:crf_music_app/shared/models/genre_model.dart';
-//import 'package:crf_music_app/core/extensions/media_query_extension.dart';
 import 'package:musinorte_app/core/extensions/media_query_extension.dart';
 import 'package:musinorte_app/shared/models/genre_model.dart';
 import 'package:musinorte_app/shared/widgets/image_widget.dart';
@@ -10,8 +6,7 @@ import 'package:musinorte_app/shared/widgets/image_widget.dart';
 class GenreDetailsAppBarWidget extends StatelessWidget {
   final GenreModel genre;
 
-  const GenreDetailsAppBarWidget({required this.genre, Key? key})
-      : super(key: key);
+  const GenreDetailsAppBarWidget({required this.genre, super.key});
 
   @override
   Widget build(BuildContext context) {

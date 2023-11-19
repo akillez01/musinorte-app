@@ -1,9 +1,4 @@
 import 'dart:async';
-//import 'package:crf_music_app/core/errors/exceptions.dart';
-//import 'package:crf_music_app/core/extensions/media_query_extension.dart';
-//import 'package:crf_music_app/core/services/audio_service/audio_player_service.dart';
-//import 'package:crf_music_app/shared/features/music_app/presentation/widgets/music_player_widget.dart';
-//import 'package:crf_music_app/shared/models/music_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_rx/get_rx.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
