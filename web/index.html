@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <style>
@@ -14,34 +14,34 @@
     <script>
         require('events').EventEmitter.defaultMaxListeners = Infinity;
     </script>
-  </head><body>
+</head>
+<body>
     <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyCHq8YNyshCbDcNMW81hiwi3JzyQJ7vzCw",
-        authDomain: "musinorte-48d37.firebaseapp.com",
-        projectId: "musinorte-48d37",
-        storageBucket: "musinorte-48d37.appspot.com",
-        messagingSenderId: "248954836116",
-        appId: "1:248954836116:web:ac1f3e41d4741730d7d081",
-        measurementId: "G-JMN4D2BLL8"
-      };
-    
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
+
+        // Import the functions you need from the SDKs you need
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCHq8YNyshCbDcNMW81hiwi3JzyQJ7vzCw",
+            authDomain: "musinorte-48d37.firebaseapp.com",
+            projectId: "musinorte-48d37",
+            storageBucket: "musinorte-48d37.appspot.com",
+            messagingSenderId: "248954836116",
+            appId: "1:248954836116:web:ac1f3e41d4741730d7d081",
+            measurementId: "G-JMN4D2BLL8"
+        };
+
+        // Initialize Firebase
+        getAnalytics();
+
     </script>
     <p>Olá, Mundo!</p>
-  </body>
-  
-  <!--
+    
+   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -78,22 +78,21 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-</head>
-<body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+
+    <script>
+        window.addEventListener('load', function(ev) {
+            // Download main.dart.js
+            _flutter.loader.loadEntrypoint({
+                serviceWorker: {
+                    serviceWorkerVersion: serviceWorkerVersion,
+                },
+                onEntrypointLoaded: function(engineInitializer) {
+                    engineInitializer.initializeEngine().then(function(appRunner) {
+                        appRunner.runApp();
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
