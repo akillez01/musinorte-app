@@ -1,15 +1,17 @@
 {
   "name": "musinorte_app",
   "version": "1.0.0",
-  "description": "Descrição do seu projeto",
+  "description": "App de Musica",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "dev": "json-server -H 192.168.0.12 -p 3000 -w api.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "json-server -H 0.0.0.0 -p 3000 -w api.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "flutter build"
+    
   },
   "keywords": [],
   "author": "",
